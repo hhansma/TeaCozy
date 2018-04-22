@@ -1,0 +1,146 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  top: 0;
+  right: 0;
+}
+
+header a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header span {
+  padding: 20px 10px;
+}
+
+/* Content */
+.content {
+  margin-top: 70px;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Mission */
+
+#mission {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url("../images/img-mission-background.jpg");
+}
+
+ .stripe {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Featured */
+
+#featured {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.item img {
+  height: 200px;
+  margin: 10px;
+}
+
+.item span {
+  padding-top: 10px;
+}
+
+/* Locations */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  padding-top: 70px;
+  height: 500px;
+  margin: auto;
+}
+
+.locations {
+  display: flex;
+  padding-top: 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+}
+
+.footer {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  margin-top: 20px;
+}
